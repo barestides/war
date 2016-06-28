@@ -22,7 +22,6 @@ int main() {
     int num_games = 1000;
     int increment = num_games / 50;
     for(int i = increment; i <= num_games; i = i + increment){
-        cout << i << endl;
         histogram[i] = 0;
     }
 
